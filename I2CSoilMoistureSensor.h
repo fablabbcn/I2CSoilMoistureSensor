@@ -18,6 +18,8 @@
 #include <WProgram.h> 
 #endif
 
+#include <Wire.h>
+
 //Default I2C Address of the sensor
 #define SOILMOISTURESENSOR_DEFAULT_ADDR 0x20
 
